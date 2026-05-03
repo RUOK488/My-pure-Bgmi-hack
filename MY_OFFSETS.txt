@@ -1,0 +1,42 @@
+MY BGMI 4.3 OFFSETS - Extracted from my decrypted IPA
+
+0x60ce282 - UWorld (Main game world)
+0x61583a0 - GNames (Names array)
+0x61617f0 - GObjects (Objects array)
+0x61c5f30 - LocalPlayer (Current player)
+0x65744a8 - PlayerController
+0x690667c - CameraManager (View matrix)
+0x71c1750 - ActorArray (All game actors)
+0x71c4364 - PlayerArray (All players)
+0x71c4de0 - WeaponManager
+0x71c70b0 - BoneArray (Skeleton ESP)
+0x71ca1a0 - MeshComponent (3D models)
+0x71ca538 - RootComponent (Position)
+0x71caba0 - VehicleArray
+0x71cb0f4 - ItemArray (Loot)
+0x71cb180 - HealthComponent
+0x71cb34c - TeamID
+0x71cb364 - PlayerName
+0x71cb49c - PlayerState
+0x7434198 - Renderer
+0x7444000 - ViewportSize
+0x7447ad8 - ScreenWidth
+0x744f928 - ScreenHeight
+0x7454c70 - ViewMatrix
+0x8d27b28 - WeaponData
+0x8d7f0e8 - AmmoCount
+0x8d81c60 - RecoilPattern
+0x8d81d00 - SpreadMultiplier
+0x8d81e38 - FireMode
+0x8d81e60 - FireRate
+0x8d82a70 - VehicleHealth
+0x8d82a78 - VehicleSpeed
+0x8e8dfe0 - LootDistance
+0x8ea7f40 - ESPColors
+0x8ea81c0 - BoxColors
+0x8eaaf90 - BoneColors
+0x8eacbe8 - TextColors
+0x8eb1bf0 - VisCheck
+
+These are MY offsets from MY decrypted BGMI 4.3 IPA!
+Total offsets: 41
