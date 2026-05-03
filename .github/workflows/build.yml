@@ -16,7 +16,6 @@ jobs:
         clang -dynamiclib -arch arm64 -framework Foundation -o MyHack.dylib my_complete_hack.c
         echo "✅ Compiled successfully!"
         ls -la MyHack.dylib
-        file MyHack.dylib
     
     - name: Upload
       uses: actions/upload-artifact@v4
