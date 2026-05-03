@@ -1,8 +1,6 @@
 name: Build BGMI Hack
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -15,13 +13,14 @@ jobs:
     
     - name: Compile
       run: |
-        clang -dynamiclib -arch arm64 -framework Foundation -o MyHack.dylib my_pure_hack.c
+        clang -dynamiclib -arch arm64 -o MyHack.dylib my_pure_hack.c
         echo "✅ Compilation complete!"
-        ls -la MyHack.dylib
         file MyHack.dylib
+        ls -la MyHack.dylib
     
-    - name: Upload
+    - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
         name: MyHack
         path: MyHack.dylib
+        if-no-files-found: error
